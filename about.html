@@ -28,13 +28,10 @@ footer{
     transition: ls;
 }
 img{
-    width: 500px;
-    height: 500px;
-    justify-content: center;
-    padding-right: 3rem;
-    padding-left: 7rem;
-    border-radius: ;
-}
+    width: 29rem;
+    height: 29rem;
+    border-bottom: none;
+  }
 #logo {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
@@ -45,7 +42,9 @@ h1,p, ul{
     color:rgb(23, 165, 221);
     font-family: 'Dancing Script', cursive;
 }
-
+main{
+      padding-bottom: 10rem;
+    }
  </style>
   <body>
     <header>
@@ -58,13 +57,13 @@ h1,p, ul{
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto content">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html" target="_blank">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html" target="_blank"><i class="bi bi-person-circle"></i>Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html" target="_blank"></i>About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="about.html" target="_blank"><i class="bi bi-file-earmark"></i>About Me <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="projects.html" target="_blank">My Projects <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="projects.html" target="_blank"><i class="bi bi-telephone-fill"></i>My Projects <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html" target="_blank">Contact Me <span class="sr-only">(current)</span></a>
@@ -85,10 +84,24 @@ h1,p, ul{
         <div class="row">
             <div class="col">
                 <h1>little About T-kay </h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellat, unde modi nostrum optio ea, illum maxime natus voluptates est quam possimus, molestias delectus! Natus sed tempore voluptatem labore, aspernatur obcaecati totam illo suscipit iusto ipsam dolores nobis, quo repellendus. Blanditiis quidem mollitia in quos voluptates possimus adipisci exercitationem illo, dicta, perferendis dolore, magni consectetur cumque? Maiores error possimus assumenda.</p>
+                <div class="card">
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Little About T-kay</h5>
+                    <p class="card-text">My name Is Madu Tochukwu </p>
+                    <a href="#" class="btn btn-primary">Download My CV</a>
+                  </div>
+                </div>
             </div>
             <div class="col">
-                <img src="https://images.pexels.com/photos/132474/pexels-photo-132474.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Developer">
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/132474/pexels-photo-132474.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="hero image">
+                <div class="card-body">
+                  <p class="card-text"></p>
+                </div>
+              </div>
             </div>
         </div>
      </div>

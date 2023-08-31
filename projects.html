@@ -13,8 +13,46 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
      <title>Projects</title>
-     <link rel="stylesheet" href="style.css">
  </head>
+  <style>
+    main{
+      padding-bottom: 10rem;
+    }
+    footer{
+        background: skyblue;
+        color: white;
+        height: 100px;
+        text-align: center;
+    }
+    .content li:hover{
+        background-color: white;
+        border-radius: 10px;
+        transition: ls;
+    }
+   
+    #logo {
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 1rem 3rem;
+    }
+    h1,p, ul,h4{
+        color:rgb(23, 165, 221);
+        font-family: 'Dancing Script', cursive;
+    }
+    .col1{
+      display: flex;
+      justify-content: center;
+    }
+    .col2{
+      display: flex;
+      justify-content: center;
+   
+    }
+    h4{
+      text-align: center;
+    }
+  </style>
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-info bg-dark">
@@ -26,13 +64,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto content">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html" target="_blank">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html" target="_blank"><i class="bi bi-person-circle"></i>Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html" target="_blank"> About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="about.html" target="_blank"><i class="bi bi-file-earmark"></i> About Me <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="projects.html" target="_blank">My Projects <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="projects.html" target="_blank"><i class="bi bi-telephone-fill"></i>My Projects <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html" target="_blank">Contact Me <span class="sr-only">(current)</span></a>
@@ -48,8 +86,42 @@
           </nav>
 
     </header>
-    <main>
+   <main>
+        <div class="contanier">
+          <h4>T-kay's Projects</h4>
+          <div class="row">
+            <div class="col col1">
+              <div class="card" style="width: 18rem;">
+                <img src="screen shoot.jpg" class="card-img-top" alt=".hero image..">
+                
+                <div class="card-body">
+                  <h5 class="card-title">My Portfolio</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content</p>
+                </div>
+                </ul>
+                <div class="card-body">
+                  <a href="https://my-portfolio-swart-ten-32.vercel.app/" class="card-link">Visit Page</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+            </div>
 
+              <div class="col col2">
+                <div class="card" style="width: 18rem;">
+                  <img src="screenshot 2.jpg" class="card-img-top" alt=".hero..">
+                  <div class="card-body">
+                    <h5 class="card-title">Register Form</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                  </ul>
+                  <div class="card-body">
+                    <a href="https://santo-weld.vercel.app/" class="card-link">Visit Page</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
 
