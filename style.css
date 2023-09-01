@@ -12,16 +12,11 @@ img{
     padding-left: 7rem;
     border-radius: 50%;
 }
-h1,h3,p,ul{
-    color:rgb(23, 165, 221);
-    font-family: 'Dancing Script', cursive;
-}
-
 .row{
       padding: 3rem 1rem;
 }
 footer{
-    background: skyblue;
+    background: black;
     color: white;
     height: 100px;
     text-align: center;
@@ -31,6 +26,7 @@ footer{
     border-radius: 10px;
     transition: ls;
 }
-.img{
-
+h1,h3,p,ul,form{
+    font-family: 'Dancing Script', cursive;
+    color:rgb(23, 165, 221);
 }
